@@ -5,9 +5,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:sky_watch/core/error/exception.dart';
 import 'package:sky_watch/core/error/failure.dart';
-import 'package:sky_watch/data/models/weather_model.dart';
-import 'package:sky_watch/data/repositories/weather_repository_impl.dart';
-import 'package:sky_watch/domain/entities/weather.dart';
+import 'package:sky_watch/features/weather/data/models/weather_model.dart';
+import 'package:sky_watch/features/weather/data/repositories/weather_repository_impl.dart';
+import 'package:sky_watch/features/weather/domain/entities/weather.dart';
 
 import '../../helpers/test_helper.mocks.dart';
 

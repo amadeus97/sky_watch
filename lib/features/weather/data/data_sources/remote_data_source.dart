@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:sky_watch/core/error/exception.dart';
-import 'package:sky_watch/data/models/weather_model.dart';
+import 'package:sky_watch/features/weather/data/models/weather_model.dart';
 import 'package:http/http.dart' as http;
-import '../../core/error/constants/constants.dart';
+import '../../../../core/error/constants/constants.dart';
 
 abstract class WeatherRemoteDataSource {
   Future<WeatherModel> getCurrentWeather(String cityName);

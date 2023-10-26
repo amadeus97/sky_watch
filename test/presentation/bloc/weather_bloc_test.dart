@@ -3,10 +3,10 @@ import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:sky_watch/core/error/failure.dart';
-import 'package:sky_watch/domain/entities/weather.dart';
-import 'package:sky_watch/presentation/bloc/weather_bloc.dart';
-import 'package:sky_watch/presentation/bloc/weather_event.dart';
-import 'package:sky_watch/presentation/bloc/weather_state.dart';
+import 'package:sky_watch/features/weather/domain/entities/weather.dart';
+import 'package:sky_watch/features/weather/presentation/bloc/weather_bloc.dart';
+import 'package:sky_watch/features/weather/presentation/bloc/weather_event.dart';
+import 'package:sky_watch/features/weather/presentation/bloc/weather_state.dart';
 
 import '../../helpers/test_helper.mocks.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sky_watch/domain/usecases/get_current_weather.dart';
-import 'package:sky_watch/presentation/bloc/weather_event.dart';
-import 'package:sky_watch/presentation/bloc/weather_state.dart';
+import 'package:sky_watch/features/weather/domain/usecases/get_current_weather.dart';
+import 'package:sky_watch/features/weather/presentation/bloc/weather_event.dart';
+import 'package:sky_watch/features/weather/presentation/bloc/weather_state.dart';
 import 'package:rxdart/rxdart.dart';
 
 class WeatherBloc extends Bloc<WeatherEvent, WeatherState> {

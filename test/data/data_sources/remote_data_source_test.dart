@@ -2,9 +2,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:sky_watch/core/error/constants/constants.dart';
 import 'package:sky_watch/core/error/exception.dart';
-import 'package:sky_watch/data/data_sources/remote_data_source.dart';
+import 'package:sky_watch/features/weather/data/data_sources/remote_data_source.dart';
 import 'package:http/http.dart' as http;
-import 'package:sky_watch/data/models/weather_model.dart';
+import 'package:sky_watch/features/weather/data/models/weather_model.dart';
 
 import '../../helpers/json_reader.dart';
 import '../../helpers/test_helper.mocks.dart';

@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sky_watch/data/models/weather_model.dart';
-import 'package:sky_watch/domain/entities/weather.dart';
+import 'package:sky_watch/features/weather/data/models/weather_model.dart';
+import 'package:sky_watch/features/weather/domain/entities/weather.dart';
 
 import '../../helpers/json_reader.dart';
 

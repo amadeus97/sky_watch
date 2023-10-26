@@ -5,11 +5,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:sky_watch/domain/entities/weather.dart';
-import 'package:sky_watch/presentation/bloc/weather_bloc.dart';
-import 'package:sky_watch/presentation/bloc/weather_event.dart';
-import 'package:sky_watch/presentation/bloc/weather_state.dart';
-import 'package:sky_watch/presentation/pages/weather_page.dart';
+import 'package:sky_watch/features/weather/domain/entities/weather.dart';
+import 'package:sky_watch/features/weather/presentation/bloc/weather_bloc.dart';
+import 'package:sky_watch/features/weather/presentation/bloc/weather_event.dart';
+import 'package:sky_watch/features/weather/presentation/bloc/weather_state.dart';
+import 'package:sky_watch/features/weather/presentation/pages/weather_page.dart';
 
 class MockWeatherBloc extends MockBloc<WeatherEvent, WeatherState>
     implements WeatherBloc {}

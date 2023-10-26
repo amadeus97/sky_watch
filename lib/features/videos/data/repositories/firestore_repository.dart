@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:sky_watch/domain/entities/video_info.dart';
+import 'package:sky_watch/features/videos/domain/entities/video_info.dart';
 
 class FirestoreRepository {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;

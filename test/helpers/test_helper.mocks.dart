@@ -11,11 +11,15 @@ import 'package:dartz/dartz.dart' as _i2;
 import 'package:http/http.dart' as _i4;
 import 'package:mockito/mockito.dart' as _i1;
 import 'package:sky_watch/core/error/failure.dart' as _i7;
-import 'package:sky_watch/data/data_sources/remote_data_source.dart' as _i9;
-import 'package:sky_watch/data/models/weather_model.dart' as _i3;
-import 'package:sky_watch/domain/entities/weather.dart' as _i8;
-import 'package:sky_watch/domain/repositories/weather_repository.dart' as _i5;
-import 'package:sky_watch/domain/usecases/get_current_weather.dart' as _i10;
+import 'package:sky_watch/features/weather/data/data_sources/remote_data_source.dart'
+    as _i9;
+import 'package:sky_watch/features/weather/data/models/weather_model.dart'
+    as _i3;
+import 'package:sky_watch/features/weather/domain/entities/weather.dart' as _i8;
+import 'package:sky_watch/features/weather/domain/repositories/weather_repository.dart'
+    as _i5;
+import 'package:sky_watch/features/weather/domain/usecases/get_current_weather.dart'
+    as _i10;
 
 // ignore_for_file: type=lint
 // ignore_for_file: avoid_redundant_argument_values

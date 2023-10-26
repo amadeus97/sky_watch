@@ -1,4 +1,4 @@
-import 'package:sky_watch/domain/repositories/video_repository.dart';
+import 'package:sky_watch/features/videos/domain/repositories/video_repository.dart';
 
 class UploadVideoUseCase {
   final VideoRepository _videoRepository;

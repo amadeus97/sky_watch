@@ -3,9 +3,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'package:sky_watch/injection_container.dart';
-import 'package:sky_watch/presentation/pages/weather_page.dart';
+import 'package:sky_watch/features/weather/presentation/pages/weather_page.dart';
 
-import 'presentation/bloc/weather_bloc.dart';
+import 'features/weather/presentation/bloc/weather_bloc.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

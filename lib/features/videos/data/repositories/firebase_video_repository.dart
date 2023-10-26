@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:sky_watch/domain/repositories/video_repository.dart';
+import 'package:sky_watch/features/videos/domain/repositories/video_repository.dart';
 
 class FirebaseVideoRepositoryImpl implements VideoRepository {
   final FirebaseStorage _storage = FirebaseStorage.instance;
