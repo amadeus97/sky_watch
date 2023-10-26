@@ -21,6 +21,7 @@ dependencies:
   rxdart: ^0.27.7
   flextras: ^1.0.0
   firebase_core: ^2.20.0
+  firebase_storage: ^11.4.0
 
 dev_dependencies:
   flutter_test:
