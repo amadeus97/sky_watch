@@ -7,6 +7,8 @@ To set up and run the project, follow these steps:
 3. Run the command `flutter pub get` to install project dependencies.
 4. Run the command `flutter run` to start the project.
 
+If you encounter any issues related to Firebase quotas or limits, you can create a new project in Firebase, configure Firestore and Storage rules in the Firebase Console, and then add the new project to your Flutter project. Follow the steps outlined in the [Firebase documentation](https://firebase.google.com/docs/flutter/setup) for detailed instructions on how to do this.
+
 Regarding the architecture, the project follows the Clean Architecture, with the separation of layers into Presentation, Domain, and Data. The Presentation layer is responsible for the user interface, the Domain layer handles business logic, and the Data layer is responsible for data access. Additionally, the project employs the BLoC (Business Logic Component) state management architecture, which is responsible for managing the application state reactively and separately from the user interface.
 
 Concerning testing, the project includes unit tests and widget tests. Unit tests are located in the `test/unit` folder, and widget tests are located in the `test/widget` folder. To run the tests, execute the command `flutter test`.
