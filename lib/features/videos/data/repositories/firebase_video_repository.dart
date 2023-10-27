@@ -8,16 +8,22 @@ class FirebaseVideoRepositoryImpl implements VideoRepository {
 
   @override
   Future<String> uploadVideo(String videoPath) async {
-    final ref =
-        _storage.ref().child('videos/${DateTime.now().millisecondsSinceEpoch}');
-    final uploadTask = ref.putFile(File(videoPath));
+    try {
+      final ext = videoPath.split('.').last;
+      final ref = _storage
+          .ref()
+          .child('videos/${DateTime.now().millisecondsSinceEpoch}.$ext');
+      final uploadTask = ref.putFile(File(videoPath));
 
-    final snapshot = await uploadTask.whenComplete(() => null);
+      final snapshot = await uploadTask.whenComplete(() => null);
 
-    if (snapshot.state == TaskState.success) {
-      final downloadURL = await snapshot.ref.getDownloadURL();
-      return downloadURL;
-    } else {
+      if (snapshot.state == TaskState.success) {
+        final downloadURL = await snapshot.ref.getDownloadURL();
+        return downloadURL;
+      } else {
+        throw Exception('Failed to upload video.');
+      }
+    } catch (err) {
       throw Exception('Failed to upload video.');
     }
   }

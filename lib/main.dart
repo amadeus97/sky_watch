@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:sky_watch/features/videos/presentation/bloc/videos_bloc.dart';
+import 'package:sky_watch/features/videos/presentation/bloc/videos_event.dart';
 import 'firebase_options.dart';
 import 'package:sky_watch/injection_container.dart';
 import 'package:sky_watch/features/weather/presentation/pages/weather_page.dart';
+import 'package:sky_watch/features/videos/presentation/pages/videos_page.dart';
 
 import 'features/weather/presentation/bloc/weather_bloc.dart';
 
@@ -27,10 +30,13 @@ class MyApp extends StatelessWidget {
       providers: [
         BlocProvider(
           create: (_) => locator<WeatherBloc>(),
+        ),
+        BlocProvider(
+          create: (_) => locator<VideosBloc>()..add(const GetVideos()),
         )
       ],
       child: const MaterialApp(
-        home: WeatherPage(),
+        home: VideosPage(),
       ),
     );
   }

@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAv46SjipozjNnKulENXCgT187zWz9NPKU',
-    appId: '1:511789442862:android:27090ca404efa2cf7b7cbf',
-    messagingSenderId: '511789442862',
-    projectId: 'skywatch-1ca7b',
-    storageBucket: 'skywatch-1ca7b.appspot.com',
+    apiKey: 'AIzaSyBIqkF9XaznPWJYFHnwJDUqILxDxZFc3Z0',
+    appId: '1:297345865025:android:0b26df388a724c755e3dc0',
+    messagingSenderId: '297345865025',
+    projectId: 'skywatch-d35e8',
+    storageBucket: 'skywatch-d35e8.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCWESGMHjmAiX3UsJDEFEvT87XAwQMv2lA',
-    appId: '1:511789442862:ios:febb95a22454053e7b7cbf',
-    messagingSenderId: '511789442862',
-    projectId: 'skywatch-1ca7b',
-    storageBucket: 'skywatch-1ca7b.appspot.com',
+    apiKey: 'AIzaSyBHS78t_fmYmcAI4_amyNaxc1RPhaehhJg',
+    appId: '1:297345865025:ios:7deb03c385ce90305e3dc0',
+    messagingSenderId: '297345865025',
+    projectId: 'skywatch-d35e8',
+    storageBucket: 'skywatch-d35e8.appspot.com',
     iosBundleId: 'com.example.skyWatch',
   );
 }

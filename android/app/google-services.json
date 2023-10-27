@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "511789442862",
-    "project_id": "skywatch-1ca7b",
-    "storage_bucket": "skywatch-1ca7b.appspot.com"
+    "project_number": "297345865025",
+    "project_id": "skywatch-d35e8",
+    "storage_bucket": "skywatch-d35e8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:511789442862:android:27090ca404efa2cf7b7cbf",
+        "mobilesdk_app_id": "1:297345865025:android:0b26df388a724c755e3dc0",
         "android_client_info": {
           "package_name": "com.example.sky_watch"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAv46SjipozjNnKulENXCgT187zWz9NPKU"
+          "current_key": "AIzaSyBIqkF9XaznPWJYFHnwJDUqILxDxZFc3Z0"
         }
       ],
       "services": {
